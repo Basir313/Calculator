@@ -47,4 +47,4 @@ def test_divide_by_zero():
         divide(5, 0)
 
 def test_add_by_nagative_reset():
-    assert add(12,2) == -15
+    assert add(12,2) == 14
