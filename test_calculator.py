@@ -45,3 +45,6 @@ def test_divide_float_result():
 def test_divide_by_zero():
     with pytest.raises(ValueError, match="Cannot divide by zero."):
         divide(5, 0)
+
+def test_add_by_nagative_reset():
+    assert add(12,2) == -15
